@@ -1,0 +1,265 @@
+body {
+  /*background-color: rgb(170, 239, 241);*/
+  margin: 0;
+}
+
+.nav_header {
+  background: #463E3F;
+  height: 80px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.nav_header_wrap {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main_website_title {
+  float: left;
+  color: white;
+  font-family: Georgia, serif;
+  margin-top: 25px;
+}
+
+.main_website_title a {
+  font-family: Georgia, serif;
+}
+
+.main_navbar_links {
+  float:right;
+  margin-top: 35px;
+  font-size: 16px;
+}
+
+.main_navbar_links li {
+  margin-left: 15px;
+}
+
+.main_navbar_links a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 70%;
+  background-color: white;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  color: #463E3F;
+  padding: 15px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.title_nav {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.title_header {
+  margin-bottom: 20px;
+}
+
+.title_text {
+  font-size: 16px;
+  line-height: 25px;
+  font-family: Georgia, serif;
+  margin: 10px 0;
+}
+
+.span12 {
+}
+
+.year_picker {
+  margin-left: -5px;
+}
+
+.year {
+  padding: 5px;
+  background: #556270;
+  color: white;
+  margin: 15px 8px;
+  line-height: 34px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 3px;
+  box-shadow 10px 10px 10px black;
+}
+
+#chart {
+  margin: 10px 0 15px 0;
+  padding: 10px 0;
+  clear: both;
+}
+
+.area {
+  fill: #4ecdc4;
+}
+
+.tooltip {
+  background: white;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.backtrace {
+  margin: 15px 0;
+}
+
+.bureau {
+  margin-left: 25px;
+}
+
+.chart_control {
+  margin: 20px 0 10px 0;
+}
+
+.chooser, .currency_chooser, .capita_chooser, .show_list, .hide_list {
+  padding: 5px;
+  background: #556270;
+  color: white;
+  border-radius: 2px;
+}
+
+.chooser, .currency_chooser, .capita_chooser {
+  margin-right: 10px;
+}
+
+/*.currency_chooser {*/
+  /*margin-left: 10px;*/
+/*}*/
+
+.active {
+  background: #77cca4;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.chart_title {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.state_chooser{
+  cursor: pointer;
+  margin-right: 10px;
+  float:left;
+}
+
+
+li {
+  display: inline;
+}
+
+.clear {
+  clear: both;
+}
+
+.summary_year {
+  /*font-weight: bold;*/
+}
+
+.yearly_summary li {
+  margin-right: 10px;
+}
+
+.footer {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid black;
+  font-size: 16px;
+}
+
+.big {
+  font-size: 24px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.chart_instructions {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 28px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a.title {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.show_instructions {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.instructions li {
+  display: block;
+  margin: 5px 0;
+}
+
+.toggle_list {
+  cursor: pointer;
+}
+
+.year:hover, .type_chooser li:hover, .inflation_chooser li:hover,
+.show_list:hover, .hide_list:hover, .capita_chooser_list li:hover{
+  background: #77cca4;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.capita_chooser_list, .type_chooser {
+  border-right: 1px solid black;
+}
+
+g {
+  font-size: 12px;
+}
+
+
+.label, .treemap_text {
+  cursor: default;
+}
+
+.show_list, .hide_list {
+  cursor: pointer;
+  width: 75px;
+}
+
+.treemap_text_details {
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 15px;
+}
+
+.expense_table tr {
+  cursor: pointer;
+}
+
+.expense_table td {
+  padding-bottom: 5px;
+}
+
+.aweber_form {
+  width: 400px;
+}

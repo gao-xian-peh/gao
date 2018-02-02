@@ -1,2 +1,2 @@
-# gao
-My Personal Website
+# My Personal Website
+Thanks for dropping by! 
